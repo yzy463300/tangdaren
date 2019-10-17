@@ -41,7 +41,7 @@ export default {
       this.everyday_take_limit = +res.data.everyday_take_limit;
       this.total_rest = +res.data.total_rest;
       if (this.today_take_count >= this.everyday_take_limit) {
-        this.maskShow = true;
+        // this.maskShow = true;
       }
     }
   },
